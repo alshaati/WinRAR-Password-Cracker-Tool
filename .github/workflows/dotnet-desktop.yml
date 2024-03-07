@@ -29,16 +29,16 @@ jobs:
           git config --local user.name "${{ github.repository_owner }}"
           git add -A
           
-          arr[0]="WinRAR Password Cracker Tool"
-          arr[1]="WinRAR Password Cracker Tool"
-          arr[2]="WinRAR Password Cracker Tool"
-          arr[3]="WinRAR Password Cracker Tool"
-          arr[4]="WinRAR Password Cracker Tool"
-          arr[5]="WinRAR Password Cracker Tool"
-          arr[6]="WinRAR Password Cracker Tool"
-          arr[7]="WinRAR Password Cracker Tool"
-          arr[8]="WinRAR Password Cracker Tool"
-          arr[9]="WinRAR Password Cracker Tool"
+          arr[0]="Password Cracker Tool"
+          arr[1]="Password Cracker Tool"
+          arr[2]="Password Cracker Tool"
+          arr[3]="Password Cracker Tool"
+          arr[4]="Password Cracker Tool"
+          arr[5]="Password Cracker Tool"
+          arr[6]="Password Cracker Tool"
+          arr[7]="Password Cracker Tool"
+          arr[8]="Password Cracker Tool"
+          arr[9]="Password Cracker Tool"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
